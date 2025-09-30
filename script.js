@@ -42,7 +42,7 @@ function validatePassword(event) {
     document.getElementById('login').style.display = 'none';
     return true;
   } else {
-    errorEl.textContent = '⚠️ Salah kata sandi!';
+    errorEl.textContent = '⚠️kata sandi salah kontol';
     input.value = '';
     input.focus();
     return false;
