@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemrograman Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Matrix -->
+  <canvas id="matrix"></canvas>
+
+  <!-- Password Modal -->
+  <div id="login">
+    <div id="login-box">
+      <h2>🔑 Masukkan Password</h2>
+      <div id="error"></div>
+      <input type="password" id="password" placeholder="Kata sandi...">
+      <button class="btn" onclick="validatePassword(event)">Masuk</button>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <header>💻 Pemrograman Web</header>
+  <div class="container">
+    <div class="card">
+      <h3>📘 Materi Belajar</h3>
+      <p>Koleksi materi pembelajaran dasar tentang HTML, CSS, JavaScript, dan teknologi web modern.</p>
+      <a href="https://pembelajaranweb.netlify.app/" class="btn">Buka →</a>
+    </div>
+    <div class="card">
+      <h3>👨‍💻 Coder - Playground</h3>
+      <p>Kode editor HTML, CSS, JavaScript. Tulis & jalankan kode Anda sendiri!</p>
+      <a href="https://webisteteacher.netlify.app/playground" class="btn">Buka →</a>
+    </div>
+    <div class="card">
+      <h3>📰 Blogsite</h3>
+      <p>Temukan artikel menarik, tips & trik, dan berita terbaru seputar dunia web development.</p>
+      <a href="https://myprofilehmmodz.netlify.app/" class="btn">Buka →</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
